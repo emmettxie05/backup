@@ -51,10 +51,7 @@ void master() {
     initData(Wreal,W,X,Y, M, D);
 
     float *W_tmp = (float*) malloc(D*sizeof(float)); //holder of X[j]X[j] for one panel
-    ///printf("panelSz=%d, panels=%d\n", panelSz, panels);
-
-    //for (rep=0; rep<REPEATS; rep++){//repeat measurements
-    //while (1){//repeat measurements
+    
         double prepTime, gdTime, sInit;
         // preprocessing
 start:
