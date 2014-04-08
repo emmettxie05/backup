@@ -16,7 +16,7 @@
 #define Z_TAG 9
 #define B_TAG 10
 #define XZ_TAG 11
-
+// this code is about distribute SGD(Stochastic gradient descent) which ia classic Machine Learning Algorithm. 
 int process_num, total_process;
 
 double prepTime, gdTime, sInit;
